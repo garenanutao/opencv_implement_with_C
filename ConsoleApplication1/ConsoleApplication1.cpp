@@ -154,7 +154,7 @@ void ResizeBicubic(Mat& mat_src, Mat& mat_dst, double scale_x, double scale_y)
 
 int main(int argc, char** argv) {
 
-    String image_path = "lena_std.tif";
+    String image_path = "test.png";//"lena_std.tif";
 	Mat image = imread(image_path);
 
 	if (!image.data) {
